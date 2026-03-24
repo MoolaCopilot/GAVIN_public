@@ -1,0 +1,14 @@
+# GAVIN — Python dependencies
+# Install with: pip install -r requirements.txt
+#
+# Note: ffmpeg must be installed on the system for MP3 chunk concatenation.
+# On Railway, ffmpeg is installed via nixPkgs in railway.toml.
+# For local development: brew install ffmpeg (macOS) or apt install ffmpeg (Linux)
+
+fastapi
+uvicorn[standard]
+python-telegram-bot>=20.0
+anthropic>=0.40.0
+httpx
+elevenlabs>=1.0.0
+python-dotenv
